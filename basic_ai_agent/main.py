@@ -8,3 +8,6 @@ import asyncio
 import os
 
 load_dotenv()
+
+openai_api_key = os.getenv('OPENAI_API_KEY')
+firecrawl_api_key = os.getenv('FIRECRAWL_API_KEY')
